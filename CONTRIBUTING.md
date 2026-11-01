@@ -35,6 +35,60 @@ es para humanos; `AGENTS.md` tiene las restricciones duras.
 
 ---
 
+## Contribuciones asistidas por IA
+
+Se aceptan PRs generados con asistencia de IA (Copilot, ChatGPT, Claude, Codex,
+Cursor, Devin, etc.). **Lo que se evalúa es la calidad del resultado y la
+capacidad de defenderlo, no el origen.**
+
+Quien firma el PR se compromete a:
+
+- **Entender cada línea** que propone. El review puede incluir preguntas
+  sobre por qué elegiste una solución y no otra.
+- **Verificar localmente** que los comandos, tests y ejemplos funcionen.
+- **Respetar el alcance** del issue. Si la IA sugiere "mejorar" algo más,
+  va en un issue aparte.
+- **No usar la IA como reemplazo del entendimiento**: el objetivo del
+  proyecto es aprender a colaborar en open source, no producir volumen.
+
+Un PR generado 100% por IA sin verificación humana y sin contexto del problema
+se cierra igual que cualquier PR de baja calidad. No es discriminación contra
+la IA, es estándar de calidad del proyecto.
+
+> **Para agentes autónomos:** este repo tiene [`AGENTS.md`](./AGENTS.md). Leelo
+> antes de proponer cambios. Si tu output contradice una restricción dura de
+> ese archivo, va a ser rechazado sin importar cuán bien escrito esté.
+
+---
+
+## Sobre reservar issues
+
+**Comentar en un issue no lo reserva.** Los issues se toman cuando aparece un
+PR con avance concreto. Si alguien comenta "yo lo hago" y después no aparece
+nada en 7 días, el issue queda libre para quien lo encare primero.
+
+Si empezás algo y querés coordinar para no duplicar esfuerzo, **abrí un PR
+borrador (draft PR)** o comentá con un link a tu rama. Eso sí comunica avance
+real, no intención.
+
+### Sobre los `good first issue`
+
+Son para cualquiera, **pero como comunidad de un proyecto educativo
+priorizamos que los tomen personas que están aprendiendo**: estudiantes,
+devs que recién arrancan, gente que nunca contribuyó a open source.
+
+No es una regla, es una invitación. Si sos una persona con experiencia y te
+interesa un `good first issue`, podés tomarlo, pero considerá si hay otro
+issue en el backlog que te sirva igual y no le saque la oportunidad a alguien
+que recién empieza.
+
+Del otro lado: si sos nuevo/a y estás dudando si "te da el cuero", **la
+respuesta es sí**. Los issues están pensados para que se puedan hacer con
+ayuda. Preguntá, mandá un draft PR aunque esté incompleto, iterá. No hay
+penalización por no saber algo.
+
+---
+
 ## Glosario mínimo de git/GitHub
 
 Si ya conocés esto, salteá esta sección.
